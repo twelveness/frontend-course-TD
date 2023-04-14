@@ -1,6 +1,8 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .label {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 16px;
@@ -10,8 +12,6 @@
 }
 
 .link {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
@@ -20,8 +20,6 @@
 }
 
 h1 {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 42px;
 	line-height: 54px;
@@ -31,7 +29,6 @@ h1 {
 
 h1 span {
 	font-family: 'Yesteryear';
-	font-weight: 400;
 	font-size: 72px;
 	line-height: 70px;
 	color: #D476F8;
@@ -47,8 +44,6 @@ h1 span {
 }
 
 .card-title {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
@@ -58,8 +53,6 @@ h1 span {
 }
 
 .card-price {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 16px;
@@ -70,8 +63,6 @@ h1 span {
 }
 
 .normal {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
@@ -83,8 +74,6 @@ h1 span {
 }
 
 h3 {
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 28px;
