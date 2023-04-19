@@ -1,5 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 
 .label {
@@ -90,6 +91,11 @@ h3 {
 	height: 16px;
 }
 
+.burger-menu {
+	width: 24px;
+	height: 24px;
+}
+
 .logo-footer {
 	width: 105px;
 	height: 48px;
@@ -98,6 +104,26 @@ h3 {
 
 .header {
 	padding: 12px 24px;
+	border-bottom: 1px solid #E0E0E0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+}
+
+.phone {
+	display: flex;
+	gap: 10px;
+	margin-right: 20px;
+	align-items: center;
+}
+
+.header.right {
+	justify-content: end;
+	gap: 8px;
 }
 
 .title {
@@ -107,6 +133,9 @@ h3 {
 
 .sort-button {
 	margin-bottom: 24px;
+	display: flex;
+	gap: 8px;
+	align-items: center;
 }
 
 .show-more{
@@ -116,6 +145,7 @@ h3 {
 
 .footer {
 	padding: 24px 40px;
+	border-top: 1px solid #E0E0E0;
 }
 
 .phone-footer {
@@ -124,6 +154,11 @@ h3 {
 
 .text-footer {
 	margin-bottom: 24px;
+}
+
+.social {
+	display: flex;
+	gap: 16px;
 }
 
 h3 {
