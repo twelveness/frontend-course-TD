@@ -3,6 +3,16 @@ body {
 	margin: 0;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	margin: 0;
+}
+
 .label {
 	font-weight: 400;
 	font-size: 12px;
@@ -10,6 +20,7 @@ body {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #828282;
+	display: inline;
 }
 
 .link {
@@ -26,17 +37,20 @@ h1 {
 	line-height: 54px;
 	text-align: center;
 	color: #111212;
+	margin: 0;
 }
 
 h1 span {
 	font-family: 'Yesteryear';
 	font-size: 72px;
-	line-height: 70px;
+	line-height: 97%;
 	color: #D476F8;
 }
 
 .card {
 	padding-bottom: 16px;
+	width: 342px;
+	height: 398px;
 }
 
 .card-image {
@@ -129,6 +143,10 @@ h3 {
 .title {
 	margin-top: 72px;
 	margin-bottom: 64px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 342px;
 }
 
 .sort-button {
@@ -136,6 +154,8 @@ h3 {
 	display: flex;
 	gap: 8px;
 	align-items: center;
+	width: 47px;
+	height: 24px;
 }
 
 .show-more{
