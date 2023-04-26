@@ -1,5 +1,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	margin: 0;
 }
 
 .label {
@@ -9,6 +20,7 @@ body {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #828282;
+	display: inline;
 }
 
 .link {
@@ -25,17 +37,20 @@ h1 {
 	line-height: 54px;
 	text-align: center;
 	color: #111212;
+	margin: 0;
 }
 
 h1 span {
 	font-family: 'Yesteryear';
 	font-size: 72px;
-	line-height: 70px;
+	line-height: 97%;
 	color: #D476F8;
 }
 
 .card {
 	padding-bottom: 16px;
+	width: 342px;
+	height: 398px;
 }
 
 .card-image {
@@ -90,6 +105,11 @@ h3 {
 	height: 16px;
 }
 
+.burger-menu {
+	width: 24px;
+	height: 24px;
+}
+
 .logo-footer {
 	width: 105px;
 	height: 48px;
@@ -98,15 +118,44 @@ h3 {
 
 .header {
 	padding: 12px 24px;
+	border-bottom: 1px solid #E0E0E0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+}
+
+.phone {
+	display: flex;
+	gap: 10px;
+	margin-right: 20px;
+	align-items: center;
+}
+
+.header.right {
+	justify-content: end;
+	gap: 8px;
 }
 
 .title {
 	margin-top: 72px;
 	margin-bottom: 64px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 342px;
 }
 
 .sort-button {
 	margin-bottom: 24px;
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	width: 47px;
+	height: 24px;
 }
 
 .show-more{
@@ -116,6 +165,7 @@ h3 {
 
 .footer {
 	padding: 24px 40px;
+	border-top: 1px solid #E0E0E0;
 }
 
 .phone-footer {
@@ -124,6 +174,11 @@ h3 {
 
 .text-footer {
 	margin-bottom: 24px;
+}
+
+.social {
+	display: flex;
+	gap: 16px;
 }
 
 h3 {
