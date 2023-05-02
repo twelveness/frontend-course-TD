@@ -3,10 +3,23 @@ body {
 	margin: 0;
 }
 
+button {
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #111212;
+  }
+
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 72px 24px 56px 24px;
 }
 
 p {
@@ -21,6 +34,7 @@ p {
 	text-transform: uppercase;
 	color: #828282;
 	display: inline;
+	margin-bottom: 8px;
 }
 
 .link {
@@ -37,25 +51,31 @@ h1 {
 	line-height: 54px;
 	text-align: center;
 	color: #111212;
-	margin: 0;
+	margin: 0 0 64px;
 }
 
 h1 span {
 	font-family: 'Yesteryear';
 	font-size: 72px;
-	line-height: 97%;
+	line-height: 54px;
 	color: #D476F8;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-bottom: 48px;
 }
 
 .card {
 	padding-bottom: 16px;
-	width: 342px;
-	height: 398px;
+	margin: 0 auto;
 }
 
 .card-image {
-	width: 342px;
-	height: 320px;
+	width: 100%;
+	margin-bottom: 16px;
 }
 
 .card-title {
@@ -133,6 +153,9 @@ h3 {
 	gap: 10px;
 	margin-right: 20px;
 	align-items: center;
+	text-decoration: none;
+    color: #4788f5;
+    font-weight: 500;
 }
 
 .header.right {
@@ -141,8 +164,6 @@ h3 {
 }
 
 .title {
-	margin-top: 72px;
-	margin-bottom: 64px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -158,14 +179,13 @@ h3 {
 	height: 24px;
 }
 
-.show-more{
-	margin-top: 64px;
-	margin-bottom: 56px;
+.footer {
+	padding: 24px 40px 24px;
+	border-top: 1px solid #E0E0E0;
 }
 
-.footer {
-	padding: 24px 40px;
-	border-top: 1px solid #E0E0E0;
+.footertop {
+	padding-bottom: 24px;
 }
 
 .phone-footer {
@@ -179,6 +199,7 @@ h3 {
 .social {
 	display: flex;
 	gap: 16px;
+
 }
 
 h3 {
@@ -186,9 +207,56 @@ h3 {
 }
 
 .nav {
-	padding: 48px 0px;
+	padding: 24px 0px 24px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: none;
+  padding: 0 0;
+}
+
+.nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .sub {
-	margin-bottom: 66px;
+	padding: 24px 0 66px;
+}
+
+.sub p {
+	margin-bottom: 16px;
+}
+
+.sub form {
+	display: flex;
+	padding-right: 50px;
+}
+
+.sub form input {
+	padding-left: 16px;
+	min-width: 0;
+	border: 1px solid #E0E0E0;
+	border-right: 0;
+}
+
+.sub form input::placeholder {
+	color: #bdbdbd;
+}
+
+.sub form button {
+	background: #4788F5;
+	text-transform: uppercase;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 12px 24px;
 }
