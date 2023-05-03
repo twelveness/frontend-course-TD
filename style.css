@@ -19,7 +19,14 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 72px 24px 56px 24px;
+	padding: 0px 24px 0px 24px;
+	margin-bottom: 56px;
+}
+
+@media (min-width: 989px) {
+	main {
+		margin-bottom: 120px;
+	}
 }
 
 p {
@@ -42,7 +49,33 @@ p {
 	font-size: 14px;
 	line-height: 24px;
 	color: #111212;
-	text-decoration:none
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.sorting {
+	margin-bottom: 24px;
+}
+
+.sorting-categories {
+	display: none;
+}
+
+@media (min-width: 989px) {
+	.sorting {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.sorting-categories {
+		display: flex;
+		gap: 24px;
+	}	
+
+	.sorting-categories button:first-child {
+		color: #4788F5;
+	}
 }
 
 h1 {
@@ -68,14 +101,35 @@ h1 span {
 	margin-bottom: 48px;
 }
 
+@media (min-width: 989px) {
+	.section {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
+
 .card {
 	padding-bottom: 16px;
 	margin: 0 auto;
 }
 
+@media (min-width: 989px) {
+	.card {
+		width: 224px;
+	}
+}
+
 .card-image {
 	width: 100%;
 	margin-bottom: 16px;
+}
+
+@media (min-width: 989px) {
+	.card-image {
+		width: 224px;
+		height: 280px;
+		object-fit: cover;
+	}
 }
 
 .card-title {
@@ -113,6 +167,8 @@ h3 {
 	font-size: 18px;
 	line-height: 28px;
 	color: #111212;
+	margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .logo {
@@ -143,6 +199,10 @@ h3 {
 	justify-content: space-between;
 }
 
+header {
+	margin-bottom: 72px;
+}
+
 .right {
 	display: flex;
 	align-items: center;
@@ -167,11 +227,9 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 342px;
 }
 
 .sort-button {
-	margin-bottom: 24px;
 	display: flex;
 	gap: 8px;
 	align-items: center;
@@ -180,12 +238,24 @@ h3 {
 }
 
 .footer {
-	padding: 24px 40px 24px;
+	padding: 24px 40px 66px;
 	border-top: 1px solid #E0E0E0;
+}
+
+@media (min-width: 989px) {
+	.footer {
+		padding-bottom: 118px;
+	}
 }
 
 .footertop {
 	padding-bottom: 24px;
+}
+
+@media (min-width: 989px) {
+	.footertop {
+		padding-bottom: 51px;
+	}
 }
 
 .phone-footer {
@@ -194,6 +264,12 @@ h3 {
 
 .text-footer {
 	margin-bottom: 24px;
+}
+
+@media (min-width: 989px) {
+	.text-footer {
+		margin-bottom: 34px;
+	}
 }
 
 .social {
@@ -225,7 +301,7 @@ h3 {
 }
 
 .sub {
-	padding: 24px 0 66px;
+	padding-top: 24px;
 }
 
 .sub p {
@@ -259,4 +335,15 @@ h3 {
 	text-align: center;
 	color: #FFFFFF;
 	padding: 12px 24px;
+}
+
+@media (min-width: 989px) {
+	header {
+		margin-bottom: 87px;
+	}
+
+	h1 {
+		width: 650px;
+		margin-bottom: 111px;
+	}	
 }
