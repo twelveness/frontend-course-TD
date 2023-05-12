@@ -32,12 +32,21 @@
 		<h1>Make their <span>day extra special</span> with a handcrafted bouquet.</h1>
 	</div>
 
-	<div class="sort-button">
-		<p class="link">Sort</p> 
-		<img src="./assets/arrow-down-icon.svg" alt='arrow down' class="icon">
+	<div class="sorting">
+		<div class="sorting-categories ">
+			<button class="link">All flowers</button>
+			<button class="link">Gifts</button>
+			<button class="link">Roses</button>
+			<button class="link">Occasion</button>
+		</div>
+
+		<div class="sort-button">
+			<button class="link">Sort</button> 
+			<img src="./assets/arrow-down-icon.svg" alt='arrow down' class="icon">
+		</div>
 	</div>
 
-	<div>
+	<div class="section">
 		<div class="card">
 			<img src="./assets/image-roses.jpg" alt='roses' class="card-image">
 			<p class="card-title">Orange Rose Espana 70 cm</p>
@@ -103,15 +112,16 @@
 </main>
 
 <footer class="footer">
-	<img src="./assets/logo.png" alt='logo' class="logo-footer">
-	<div class='phone-footer phone'>
-		<img src="./assets/phone-icon.svg" alt='phone icon' class="icon"> <a class="link blue" href="tel:+8 050 937 99 92">+8 050 937 99 92</a>
-	</div>
-	<p class="normal text-footer">Feel free to contact us on your queries and we will get back to you as soon as possible!</p>
-	<div class="social">
-		<a href="https://facebook.com" class="icon"><img src="./assets/facebook-icon.svg" alt='facebook'></a>
-		<a href="https://twitter.com" class="icon"><img src="./assets/twitter-icon.svg" alt='twitter'></a>
-		<a href="https://viber.com" class="icon"><img src="./assets/viber-icon.svg" alt='facebook'></a>
+	<div class="footertop"><img src="./assets/logo.png" alt='logo' class="logo-footer">
+		<div class='phone-footer phone'>
+			<img src="./assets/phone-icon.svg" alt='phone icon' class="icon"> <a class="link blue" href="tel:+8 050 937 99 92">+8 050 937 99 92</a>
+		</div>
+		<p class="normal text-footer">Feel free to contact us on your queries and we will get back to you as soon as possible!</p>
+		<div class="social">
+			<a href="https://facebook.com" class="icon"><img src="./assets/facebook-icon.svg" alt='facebook'></a>
+			<a href="https://twitter.com" class="icon"><img src="./assets/twitter-icon.svg" alt='twitter'></a>
+			<a href="https://viber.com" class="icon"><img src="./assets/viber-icon.svg" alt='facebook'></a>
+		</div>
 	</div>
 
 <nav class="nav">
@@ -133,11 +143,11 @@
 	</ul>
 </nav>
 
-<div>
+<div class="sub">
 	<h3>Subscribe to us!</h3>
 	<p class="normal">In an effort to worthily lead a person on his last journey, relatives, friends and colleagues present him with flowers.</p>
-	<form class="sub">
-		<input type="email" name="E-mail">
+	<form>
+		<input type="email" placeholder="Email">
 		<button type="submit">Subscribe</button>
 	</form>
 </div>
