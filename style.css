@@ -95,17 +95,12 @@ h1 span {
 }
 
 .section {
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
+	width: 100%;
 	margin-bottom: 48px;
-}
-
-@media (min-width: 989px) {
-	.section {
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
+	display: grid;
+	gap: 15px;
+	grid-template-columns: 
+		repeat(auto-fill, minmax(224px, 1fr));
 }
 
 .card {
