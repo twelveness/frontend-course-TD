@@ -53,6 +53,12 @@ p {
 	font-family: 'Roboto', sans-serif;
 }
 
+.cart {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
 .sorting {
 	margin-bottom: 24px;
 }
@@ -104,7 +110,6 @@ h1 span {
 }
 
 .card {
-	padding-bottom: 16px;
 	margin: 0 auto;
 }
 
@@ -116,7 +121,6 @@ h1 span {
 
 .card-image {
 	width: 100%;
-	margin-bottom: 16px;
 }
 
 @media (min-width: 989px) {
@@ -125,6 +129,10 @@ h1 span {
 		height: 280px;
 		object-fit: cover;
 	}
+}
+
+.card-footer {
+	padding: 16px 0 16px;
 }
 
 .card-title {
@@ -215,7 +223,6 @@ header {
 
 .header.right {
 	justify-content: end;
-	gap: 8px;
 }
 
 .title {
@@ -244,12 +251,12 @@ header {
 }
 
 .footertop {
-	padding-bottom: 24px;
+	margin-bottom: 49px;
 }
 
 @media (min-width: 989px) {
 	.footertop {
-		padding-bottom: 51px;
+		margin-bottom: 75px;
 	}
 }
 
@@ -278,7 +285,7 @@ h3 {
 }
 
 .nav {
-	padding: 24px 0px 24px;
+	margin-bottom: 48px;
 }
 
 .nav ul {
@@ -293,10 +300,6 @@ h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-}
-
-.sub {
-	padding-top: 24px;
 }
 
 .sub p {
