@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Checkout</title>
+  <meta name="description" content="Checkout">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/checkout.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Yesteryear&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-first-line">
+      <a href="./index.html" class="logo">
+        <img src="./assets/logo.png" alt='logo' class="logo">
+      </a>
+
+      <div class="header-first-line-middle">
+        <div class="link-icon location">
+          <img src="./assets/location-icon.svg" alt='location' class="icon-16 location-icon">
+          Send flowers to&nbsp;
+          <div href="loc" class="link link-icon">
+            <div class="blue">Rome</div>
+            <img src="./assets/arrow-down-icon.svg" alt='arrow down' class="icon-16">
+          </div>
+        </div>
+
+        <a href="tel:+8 050 937 99 92" class="link-icon phone phone-header">
+          <img src="./assets/phone-icon.svg" alt='phone' class="icon-16">
+          +8 050 937 99 92
+        </a>
+
+        <div class="link menu-button">
+          <img class="icon-24" src="./assets/menu-icon.svg">
+        </div>
+      </div>
+
+      <div class="header-first-line-right">
+        <div class="link-icon lang link">
+          Eng
+          <img src="./assets/arrow-down-icon.svg" alt='arrow down' class="icon-16">
+        </div>
+      </div>
+    </div>
+
+    <div class="header-second-line">
+      <div class="header-second-line-nav">
+        <a href="shop">Shop</a>
+        <a href="about">About us</a>
+      </div>
+
+      <a href="cart" class="header-second-line-cart">
+        <img src="./assets/cart-icon.svg" alt='cart' class="icon"> 
+        Cart
+        <div class="counter">12</div>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <h1  class="pagetitle">
+       Checkout
+      </h1>
+
+      <div class="checkout-general-table">
+
+        <div class="billing-details">
+
+          <h2>Billing details</h2>
+
+          <div class="form">
+            <label class="field first-name">
+              <div class="label">
+                First name <span>*</span>
+              </div>
+
+              <input type="text" placeholder="First name">
+            </label>
+
+            <label class="field last-name">
+              <div class="label">
+                Last name <span>*</span>
+              </div>
+
+              <input type="text" placeholder="Last name">
+            </label>
+
+            <label class="field company-name">
+              <div class="label">
+                Company name
+              </div>
+
+              <input type="text" placeholder="Company name"v>
+            </label>
+
+            <label class="field country">
+              <div class="label">
+                Country <span>*</span>
+              </div>
+
+              <select placeholder="Country">
+                <option value="0" selected hidden>Country</option>
+              </select> 
+            </label>
+
+            <label class="field address">
+              <div class="label">
+                Street address <span>*</span>
+              </div>
+
+              <input type="text" placeholder="Street address">
+            </label>
+
+            <label class="field phone-number">
+              <div class="label">
+                Phone *
+              </div>
+
+              <input type="tel" placeholder="Phone"v>
+            </label>
+
+            <label class="field email">
+              <div class="label">
+                Email address *
+              </div>
+
+              <input type="email" placeholder="Email address"v>
+            </label>
+          </div>
+
+          <label class="account-checkmark">
+            <input type="checkbox" class="checkbox"> 
+            <div class="label label-checkbox">
+              Create an account?
+            </div>
+          </label>
+        </div>
+
+        <div class="your-order">
+          <h2>Your order</h2>
+
+          <div class="order-table">
+            <div class="product-grid">
+              <div class="product-column-head column-head cell">
+                Product
+              </div>
+
+              <div class="product-one product-entry cell">
+                Orange Rose España 70 cm × 1
+              </div>
+
+              <div class="subtotal text-product-table cell">
+                Subtotal
+              </div>
+
+              <div class="total text-product-table cell">
+                Total
+              </div>
+
+              <div class="total-column-head column-head right cell">
+                Total
+              </div>
+
+              <div class="sum-one text-product-table right cell">
+                $98.98
+              </div>
+
+              <div class="sum-subtotal text-product-table right cell">
+                $98.98
+              </div>
+
+              <div class="sum-total text-product-table right cell">
+                $98.98
+              </div>
+            </div>
+
+            <div class="order-options">
+              <div class="payment-options">
+                <label class="bank-transfer payment-option">
+                  <input type="radio" class="radio" name="payment-options" checked>
+                  <div class="payment-option-label">Direct bank transfer</div>
+                </label>
+
+                <label class="cash payment-option">
+                  <input type="radio" class="radio" name="payment-options">
+                  <div class="payment-option-label">Cash on delivery</div>
+                </label>
+              </div>
+
+              <div class="order-button-container">
+                <button class="order-button">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="additional-info">
+          <h2>Additional information</h2>
+
+          <label class="order-notes field">
+            <div class="label">Order notes</div>
+            <textarea placeholder="Order notes"></textarea>
+          </label>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-part contact">
+      <div class="logo-footer">
+        <img src="./assets/logo.png" alt='logo' class="logo">
+      </div>
+
+      <div class="phone-footer">
+        <a href="tel:+8 050 937 99 92" class="phone link-icon">
+          <img src="./assets/phone-icon.svg" alt='phone' class="icon-16">
+          +8 050 937 99 92
+        </a>
+      </div>
+
+      <div class="text-footer contact-text">
+        Feel free to contact us on your queries and we will get back to you as soon as possible!
+      </div>
+
+      <div class="social-media">
+        <a href="https://facebook.com" class="icon-16"><img src="./assets/facebook-icon.svg" alt='facebook'></a>
+        <a href="https://twitter.com" class="icon-16"><img src="./assets/twitter-icon.svg" alt='twitter'></a>
+        <a href="https://viber.com" class="icon-16"><img src="./assets/viber-icon.svg" alt='viber'></a>
+      </div>
+    </div>
+
+    <div class="footer-part nav-footer">
+      <div class="nav-footer-column">
+        <div class="title-footer">
+         Categories
+        </div>
+        <div class="nav-links-footer">
+          <ul>
+            <li><a href="">Flowers</a></li>
+            <li><a href="">Gifts</a></li>
+            <li><a href="">Roses</a></li>
+            <li><a href="">Occasion</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="nav-footer-column">
+        <div class="title-footer">
+         Information
+        </div>
+        <div class="nav-links-footer">
+          <ul>
+            <li><a href="">Shop</a></li>
+            <li><a href="">About us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-part subscribe">
+      <div class="title-footer">
+        Subscribe to us!
+      </div>
+      <div class="text-footer subscribe-text">
+        In an effort to worthily lead a person on his last journey, relatives, friends and colleagues present him with flowers.
+      </div>
+
+      <form class="subscribe-form">
+        <input type="email" placeholder="Email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+
+</body>
+
+</html>
