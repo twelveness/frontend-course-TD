@@ -371,7 +371,7 @@ h3 {
 
 .sub form input:focus {
 	outline: none;
-	border: 1px solid #4788F5;
+	border: 1px solid red;
 	border-right: none;
 }
 
