@@ -362,18 +362,8 @@ main {
 }
 
 .radio:checked + .payment-option-label::before {
-	border: 2px solid #4788F5;
-	background: #4788F5;
-}
-
-.radio:checked + .payment-option-label::after {
-	content: '';
-	width: 16px;
-	height: 16px;
-	background: url('../assets/radio.svg') no-repeat center;
-	position: absolute;
-	top: 2.5px;
-	left: 0;
+	border: 5.5px solid #4788F5;
+	background: white;
 }
 
 .order-button-container {
